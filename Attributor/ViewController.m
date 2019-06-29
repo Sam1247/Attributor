@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TextstatsViewController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 @end
 
 @implementation ViewController
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"Analyze Text"]) {
+        if ([segue.destinationViewController isKindOfClass:[TextstatsViewController class]]) {
+            TextstatsViewController *tsvc = (TextstatsViewController *)segue.destinationViewController;
+            tsvc.textToAnalyze = self.body.textStorage;
+        }
+    }
+}
 
 - (void)viewDidLoad
 {

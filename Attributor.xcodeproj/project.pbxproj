@@ -13,6 +13,7 @@
 		20115DF822C6317500B2A660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20115DF722C6317500B2A660 /* Assets.xcassets */; };
 		20115DFB22C6317500B2A660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20115DF922C6317500B2A660 /* LaunchScreen.storyboard */; };
 		20115DFE22C6317500B2A660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20115DFD22C6317500B2A660 /* main.m */; };
+		20D9D0EA22C7C8CF00A90C96 /* TextstatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D9D0E922C7C8CF00A90C96 /* TextstatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		20115DFA22C6317500B2A660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20115DFC22C6317500B2A660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20115DFD22C6317500B2A660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D9D0E822C7C8CF00A90C96 /* TextstatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextstatsViewController.h; sourceTree = "<group>"; };
+		20D9D0E922C7C8CF00A90C96 /* TextstatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextstatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				20115DF122C6317300B2A660 /* ViewController.h */,
 				20115DF222C6317300B2A660 /* ViewController.m */,
 				20115DF422C6317300B2A660 /* Main.storyboard */,
+				20D9D0E822C7C8CF00A90C96 /* TextstatsViewController.h */,
+				20D9D0E922C7C8CF00A90C96 /* TextstatsViewController.m */,
 				20115DF722C6317500B2A660 /* Assets.xcassets */,
 				20115DF922C6317500B2A660 /* LaunchScreen.storyboard */,
 				20115DFC22C6317500B2A660 /* Info.plist */,
@@ -144,6 +149,7 @@
 				20115DF322C6317300B2A660 /* ViewController.m in Sources */,
 				20115DFE22C6317500B2A660 /* main.m in Sources */,
 				20115DF022C6317300B2A660 /* AppDelegate.m in Sources */,
+				20D9D0EA22C7C8CF00A90C96 /* TextstatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
